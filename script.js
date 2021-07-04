@@ -1,8 +1,8 @@
 mixer.style.display = 'none';
 function winner() {
   document.getElementById("demo").style.visibility = "visible";
-  var castigator = Math.floor(Math.random() * 10);
-  if(castigator > 5) {
+  var theWinner = Math.floor(Math.random() * 10);
+  if(theWinner > 5) {
     confetti({
       particleCount: 500,
       spread: 120,
